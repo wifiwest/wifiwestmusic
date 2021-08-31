@@ -166,24 +166,12 @@ header ul li a.active
 }
 
 .gallery-section .image img{
-	width: 200px;
+	width: 100px;
 	transition: 0.4s;
 }
 
 .gallery-section .image:hover img{
 	transform: scale(1.4) rotate(15deg);
-}
-
-@media screen and (max-width:768px){
-	.gallery-section .image{
-		flex: 50%;
-	}
-}
-
-@media screen and (max-width:480px){
-	.gallery-section .image{
-		flex: 100%;
-	}
 }
 
 .container{
@@ -267,4 +255,16 @@ header ul li a.active
 	font-weight: bold;
 	font-size: 17px;
 	color: white;
+}
+@media screen and (max-width:959px){
+   .social{
+	   width:100px;
+   }	
+}
+
+@media screen and (max-width:640px){
+    .social{
+		width:100px;
+	}	
+ }
 }
