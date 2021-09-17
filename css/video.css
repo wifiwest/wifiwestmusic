@@ -302,7 +302,7 @@ ul{
 
 
 .sticky_header{
-	background: rgba(255, 255, 255, 95%);
+	background: rgb(255 255 255 / 63%);
 }
 
 .sticky-a:hover{
