@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WIFIWEST</title>
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+	<!--font awesome css link -->
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- bootstrap cdn link  -->
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- custom css link  -->
+
+	<!-- <link href="./WIFIWEST_files/font-awesome.min.css" rel="stylesheet"> -->
+
+	<!-- <script src="./WIFIWEST_files/jquery3.1.0.min.js.download"></script> -->
+	<!-- <script src="./WIFIWEST_files/gmlt3.js.download" id="lfwexobse67kgfogflay"></script> -->
+</head>
+
+<body>
+	<div class="wrap">
+		<div class="space-1"></div>
+		<header id="header">
+			<div class="container">
+				<div class="social">
+					<ul>
+						<li>
+							<a href="https://www.instagram.com/realwifiwest/" class="a-sticky" target="_blank">
+								<!-- <i class="fa fa-instagram"></i> -->
+								<i class="fab fa-instagram icon-sticky"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.twitter.com/realwifiwest" class="a-sticky" target="_blank">
+								<!-- <i class="fa fa-twitter"></i> -->
+								<i class="fab fa-twitter icon-sticky"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://music.apple.com/us/artist/wifiwest/1522610801" class="a-sticky" target="_blank">
+								<!-- <i class="fa fa-apple"></i> -->
+								<i class="fab fa-apple icon-sticky"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://open.spotify.com/artist/13926ECE6QWsiRzilwvnoZ?si=9lrzm9QLR1GEOMKxuE3YKA" class="a-sticky" target="_blank">
+								<!-- <i class="fa fa-spotify"></i> -->
+								<i class="fab fa-spotify icon-sticky"></i>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.youtube.com/channel/UCZoj6pBsHyb08MipRpkUJmA?sub_confirmation=1" class="a-sticky" target="_blank">
+								<!-- <i class="fa fa-youtube"></i> -->
+								<i class="fab fa-youtube icon-sticky"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<ul class="ul-sticky">
+					<li>
+						<a href="index.html" class="btn-sticky active-page page-sticky">LATEST</a>
+					</li>
+					<li>
+						<a href="shows.html" class="btn-sticky">SHOWS</a>
+					</li>
+					<li>
+						<a href="music.html" class="btn-sticky">MUSIC</a>
+					</li>
+					<li>
+						<a href="videos.html" class="btn-sticky">VIDEOS</a>
+					</li>
+					<li>
+						<a href="https://ghostwalk.creator-spring.com/" class="btn-sticky" target="_blank">SHOP</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+	
+        <div>
+            <h3 class="text-center text-white py-3">CALLING</h3>
+        </div>
+
+		<div class="wrap-bottom-links">
+			<div class="container">
+				<ul>
+					<li>
+						<a href="https://open.spotify.com/track/2euSKy6Sj4M13ZAiBSmlJ9?si=70448b6d1da24c5b" class="btn-sticky" target="_blank">SPOTIFY</a>
+					</li>
+					<li>
+						<a href="https://music.apple.com/ng/album/calling/1663063056?i=1663063057" class="btn-sticky" target="_blank">APPLE</a>
+					</li>
+					<li>
+						<a href="https://youtu.be/Og7carPWWCU" class="btn-sticky" target="_blank">YOUTUBE</a>
+					</li>
+					<li>
+						<a href="https://deezer.page.link/CiqJmsvDZi3mcrzX6" class="btn-sticky" target="_blank">DEEZER</a>
+					</li>
+					<li>
+						<a href="https://audiomack.com/Wifiwest/song/calling" class="btn-sticky" target="_blank">AUDIOMACK</a>
+					</li>
+					<li>
+						<a href="https://amazon.com/music/player/albums/B0BRBVV79V?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_amlaeZUk4eRi2YkSZyzdsO7ir" class="btn-sticky" target="_blank">AMAZON MUSIC</a>
+					</li>      
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script>
+		$(window).scroll(function(){
+			if ($(this).scrollTop() >= 10){
+				$('#header').addClass("sticky_header");
+				$('.icon-sticky').addClass("sticky-icon");
+				$('.a-sticky').addClass("sticky-a");
+				$('.btn-sticky').addClass("sticky-btn");
+				$('.ul-sticky').addClass("sticky-ul");
+				$('.page-sticky').addClass("sticky-page");
+			}
+			else{
+				$('#header').removeClass("sticky_header");
+				$('.icon-sticky').removeClass("sticky-icon");
+				$('.a-sticky').removeClass("sticky-a");
+				$('.btn-sticky').removeClass("sticky-btn");
+				$('.page-sticky').removeClass("sticky-page");
+			}
+		});
+	</script>
+</body>
+
+</html>
